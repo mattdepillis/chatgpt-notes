@@ -13,5 +13,9 @@
 
 - TODO: explaining backend structure
 - TODO: spinning up the server
+  - in root: ```export FLASK_APP=./server/flaskr/server.py```
+  - run:
+    - debug mode: ```flask --debug run```
+    - regular: ```flask run```
 
 ## React UI
