@@ -6,6 +6,9 @@
 
 ## DB
 
+- for installation of flask-pymongo: ```conda config --append channels conda-forge```
+- ```conda install --file requirements.txt```
+
 ## Flask Server
 - this project was written using a virtual python enviroment using python3.7.2.
 - to run the server locally, you should create a virtual environment on your machine using python3.7. you can achieve this using [venv](https://docs.python.org/3/library/venv.html) or [conda](https://docs.conda.io/en/latest/). make sure to install Flask into your venv with ```pip3 install Flask```.
@@ -13,7 +16,7 @@
 
 - TODO: explaining backend structure
 - TODO: spinning up the server
-  - in root: ```export FLASK_APP=./server/flaskr/server.py```
+  - in root: ```export FLASK_APP=./server.py```
   - run:
     - debug mode: ```flask --debug run```
     - regular: ```flask run```
